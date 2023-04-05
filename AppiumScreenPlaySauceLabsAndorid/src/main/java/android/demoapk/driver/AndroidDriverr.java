@@ -34,7 +34,7 @@ public class AndroidDriverr {
             caps.setCapability("sauce:options", sauceOptions);
 
 
-            URL url = new URL("https://oauth-jelopez80-b7389:4111b945-c324-4f3c-bd9f-69c1e1ba1dc6@ondemand.us-west-1.saucelabs.com:443/wd/hub");
+            URL url = new URL("");
 
             driver = new AndroidDriver(url, caps);
 
